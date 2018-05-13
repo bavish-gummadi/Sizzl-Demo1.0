@@ -39,147 +39,28 @@
 <body>
 
   <header class="header">
-    <h1 class="header__title">☰ Restaurants</h1>
+    <h1 class="header__title"><button id="side-menu" class="mdl-button">☰</button> Restaurants</h1>
     <!--
     <button id="butRefresh" class="headerButton" aria-label="Refresh"></button>
     <button id="butAdd" class="headerButton" aria-label="Add"></button>
     -->
-    <button id="butSearch" class="headerButton" aria-label="Search"></button>
+    <button id="butSearch" class="headerButton mdl-button" aria-label="Search"></button>
   </header>
-  <!--
-  <main class="main">
-    <div class="card cardTemplate weather-forecast" hidden>
-      <div class="city-key" hidden></div>
-      <div class="card-last-updated" hidden></div>
-      <div class="location"></div>
-      <div class="date"></div>
-      <div class="description"></div>
-      <div class="current">
-        <div class="visual">
-          <div class="icon"></div>
-          <div class="temperature">
-            <span class="value"></span><span class="scale">°F</span>
-          </div>
-        </div>
-        <div class="description">
-          <div class="humidity"></div>
-          <div class="wind">
-            <span class="value"></span>
-            <span class="scale">mph</span>
-            <span class="direction"></span>°
-          </div>
-          <div class="sunrise"></div>
-          <div class="sunset"></div>
-        </div>
-      </div>
-      <div class="future">
-        <div class="oneday">
-          <div class="date"></div>
-          <div class="icon"></div>
-          <div class="temp-high">
-            <span class="value"></span>°
-          </div>
-          <div class="temp-low">
-            <span class="value"></span>°
-          </div>
-        </div>
-        <div class="oneday">
-          <div class="date"></div>
-          <div class="icon"></div>
-          <div class="temp-high">
-            <span class="value"></span>°
-          </div>
-          <div class="temp-low">
-            <span class="value"></span>°
-          </div>
-        </div>
-        <div class="oneday">
-          <div class="date"></div>
-          <div class="icon"></div>
-          <div class="temp-high">
-            <span class="value"></span>°
-          </div>
-          <div class="temp-low">
-            <span class="value"></span>°
-          </div>
-        </div>
-        <div class="oneday">
-          <div class="date"></div>
-          <div class="icon"></div>
-          <div class="temp-high">
-            <span class="value"></span>°
-          </div>
-          <div class="temp-low">
-            <span class="value"></span>°
-          </div>
-        </div>
-        <div class="oneday">
-          <div class="date"></div>
-          <div class="icon"></div>
-          <div class="temp-high">
-            <span class="value"></span>°
-          </div>
-          <div class="temp-low">
-            <span class="value"></span>°
-          </div>
-        </div>
-        <div class="oneday">
-          <div class="date"></div>
-          <div class="icon"></div>
-          <div class="temp-high">
-            <span class="value"></span>°
-          </div>
-          <div class="temp-low">
-            <span class="value"></span>°
-          </div>
-        </div>
-        <div class="oneday">
-          <div class="date"></div>
-          <div class="icon"></div>
-          <div class="temp-high">
-            <span class="value"></span>°
-          </div>
-          <div class="temp-low">
-            <span class="value"></span>°
-          </div>
-        </div>
-      </div>
-    </div>
-  </main>
-  -->
-  <!--ANOTHER ONE
-  <div class="dialog-container">
-    <div class="dialog">
-      <div class="dialog-title">Add new city</div>
-      <div class="dialog-body">
-        <select id="selectCityToAdd">
-           Values map to Yahoo Weather API Where On Earth Identifiers (WOEIDs).
-               https://developer.yahoo.com/weather/documentation.html#req
-          <option value="2357536">Austin, TX</option>
-          <option value="2367105">Boston, MA</option>
-          <option value="2379574">Chicago, IL</option>
-          <option value="2459115">New York, NY</option>
-          <option value="2475687">Portland, OR</option>
-          <option value="2487956">San Francisco, CA</option>
-          <option value="2490383">Seattle, WA</option>
-        </select>
-      </div>
-    </div>
-  </div>
-  -->
+  
   <div class="wrap">
     <div class="card">
       <div class="container">
         <img src="images/pieology.jpeg" width="50" height="50" alt="pieology" class="restaurant-icon">
         <div class="restaurant">
-          <h4 class="info title">Pieology 🔥 1.3 mi.</h4>
-          <p class="info type"> Pizza &#9733; </p>
+          <h4 class="info title">Pieology 🔥1.3 mi.</h4>
+          <p class="info type"> Pizza &#9733;&#9733;&#9733;&#9733;&#9733;</p>
           <p class="info dollars"> $$ </p>
         </div>
-
       </div>
-      <div class="card-action" text-align="margin-right">
-        VIEW MENU
+      <div class="card-action">
+        <div class="view-menu">
+          <button class="mdl-button">VIEW MENU</button>
+        </div>
       </div>
     </div>
   </div>
