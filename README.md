@@ -2,8 +2,10 @@
 
 Desktop instrcutions:
 The first demo of the Sizzl PWA
-Download Web Server for Chrome and set the folder to whichever folder you downloaded this repo.
-To view the demo, select "automatically show index.html on the Chrome Web Server" and then turn on the web server.
+Download Web Server for Chrome 
+Within the Web Server, set the folder to whichever folder you downloaded this repo.
+To view the demo, select "automatically show index.html on the Chrome Web Server"
+Turn on the web server.
 Click on the Web Server URL to see the application.
 
 Mobile:
