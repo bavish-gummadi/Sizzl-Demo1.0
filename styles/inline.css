@@ -123,6 +123,32 @@ body {
   -webkit-flex: 1;
       -ms-flex: 1;
           flex: 1; }
+
+
+.footer {
+  display: flex;
+  justify-content: space-around;
+  align-items: flex-center;
+  flex-wrap: nowrap;
+  background: white;
+  height: 60px;
+}
+
+.footerButton {
+  width: 33.1%;
+  background: #EB2633;
+  color: white;
+  border: 0px;
+}
+
+#promotions {
+  border-right: 1px;
+  border-left: 1px;
+
+}
+
+
+
 /*
 .loader {
   left: 50%;
@@ -202,6 +228,7 @@ body {
   overflow-x: hidden;
   overflow-y: auto;
   -webkit-overflow-scrolling: touch;
+
 
 }
 
